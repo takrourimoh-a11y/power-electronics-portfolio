@@ -62,6 +62,17 @@ The schematic is organized into four labeled blocks: GATE DRIVERS, CIRCUIT (the 
 - **DEADTIME_R1/DEADTIME_C1** and **DISNABLE_DRIVER1** give the same manual deadtime and disable control as the standalone gate driver board.
 
 
+## Snapshot of the usage 
+
+![Bench test setup](images/half_bridge.jpg)
+
+More result can be found under the published conferece paper titled:
+Conducted EMI Reduction in SiC MOSFET-Based Boost Converter using Chaotic Pulse Width Modulation
+
+N.B. The research paper is accepted however it will be published soon.
+
+
+
 ## Related
 
 Integrates the [gate driver](../gate-driver-ucc21520dwr/README.md) and [voltage sensor](../voltage-sensor-amc1311/README.md) designs directly, and introduces the CC6920BSO-10A current sensor as an alternative to the [SI8920BC-IPR](../current-sensor-si8920/README.md) and [LA55-P](../current-sensor-la55p/README.md) approaches used elsewhere in this portfolio.
