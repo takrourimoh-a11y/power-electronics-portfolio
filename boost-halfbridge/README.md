@@ -61,11 +61,6 @@ The schematic is organized into four labeled blocks: GATE DRIVERS, CIRCUIT (the 
 - Input/output voltage readings are available at **V1_ADCUNI** / **V2_ADCUNI**; input/output current at **ADC1** / **ADC2**.
 - **DEADTIME_R1/DEADTIME_C1** and **DISNABLE_DRIVER1** give the same manual deadtime and disable control as the standalone gate driver board.
 
-## Status / next steps
-
-- [ ] Bring-up photos
-- [ ] Confirm operating mode(s) tested (boost vs. half-bridge) and switching frequency/duty cycle used
-- [ ] Full closed-loop or open-loop bench test with all four sensor channels logged simultaneously
 
 ## Related
 
