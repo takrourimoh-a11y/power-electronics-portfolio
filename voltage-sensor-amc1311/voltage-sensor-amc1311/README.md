@@ -1,4 +1,4 @@
-# Isolated Voltage Sensor — AMC1311BDWVR
+<img width="282" height="211" alt="image" src="https://github.com/user-attachments/assets/f4a455a4-f216-47bf-a4f5-358d2dd7b290" /># Isolated Voltage Sensor — AMC1311BDWVR
 
 A galvanically isolated DC voltage sensing board built around TI's AMC1311BDWVR reinforced-isolation amplifier, converting a high-voltage bus measurement into a single-ended, ADC-safe output. Designed in EasyEDA, fabricated and assembled through JLCPCB.
 
@@ -64,11 +64,12 @@ Two-layer board with an explicit physical split between the isolated (sense-side
 - Take the conditioned, single-ended output from **ADCUNI** (`Voutuni`) into your ADC input. **ADCBI/ADCJUMP** expose the raw differential AMC1311 output pair if you need it directly instead.
 - **VREFOP** sets the differential amplifier's output reference level — tie it to your ADC's reference or midpoint as appropriate for your system.
 
-## Status / next steps
+## Bench Test
 
-- [ ] Bench calibration: known input voltages vs. measured ADC counts, across the full input range
-- [ ] Verify actual full-scale input given the rounded RX1/RSENSE values
-- [ ] Bring-up photos and any oscilloscope captures of the conditioned output
+![Bench test setup](voltage-sensor-amc1311/images/voltage_sensor.png)
+
+N.B. This voltage sensor is being used in various projects, measurments will  be uploaded later
+
 
 ## Related
 
