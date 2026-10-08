@@ -63,11 +63,13 @@ The copper is visibly zoned into two regions — the shunt/isolated-primary side
 - Take the conditioned, bidirectional output from **ADC1** (`OutA`), centered at 1.65V for zero current.
 - **TP1_ISO** exposes the raw differential amplifier output (VOUTP/VOUTN) directly, if needed for debugging or an alternate conditioning path.
 
-## Status / next steps
+## Bench Test
 
-- [ ] Bench calibration: known bipolar currents vs. measured `OutA` voltage, to confirm the mV/A scaling and 1.65V zero-point
-- [ ] Verify shunt power dissipation and thermal behavior at expected continuous current
-- [ ] Bring-up photos and scope captures of `OutA` during a current transient
+![Bench test setup](images/SI_current_sensor.png)
+
+N.B. Soon to add measurments of this sensor, however due to the noise the LA55A module was prefered to be used in projects.
+
+
 
 ## Related
 
