@@ -69,7 +69,7 @@ The board is visibly organized in horizontal bands: gate-drive/control circuitry
 
 ## Bench Test
 
-
+![Bench test setup](interleaved-inverter/images/Inverter.png)
 
 N.B. The board has been tested a video will be uploaded later.
 
