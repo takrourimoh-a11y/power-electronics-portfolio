@@ -64,7 +64,7 @@ The schematic is organized into four labeled blocks: GATE DRIVERS, CIRCUIT (the 
 
 ## Snapshot of the usage 
 
-![Bench test setup](boost-halfbridge/images/half_bridge.png)
+![Bench test setup](images/half_bridge.png)
 
 More result can be found under the published conferece paper titled:
 Conducted EMI Reduction in SiC MOSFET-Based Boost Converter using Chaotic Pulse Width Modulation
