@@ -1,5 +1,8 @@
 # Three-Phase Inverter / Converter Leg Board
 
+N.B. NOT INTERLEAVED 
+
+
 The flagship board of this stack — three complete isolated half-bridge legs on one PCB, each built from the same gate-driver building block documented separately, driving 1200V-rated IGBTs. Designed for a three-phase interleaved DC-DC converter or inverter application. Designed in EasyEDA, fabricated and assembled through JLCPCB.
 
 ![PCB 3D render](images/pcb_3d_render.png)
