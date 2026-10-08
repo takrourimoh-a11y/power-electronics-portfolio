@@ -52,11 +52,13 @@ This was noted early on as **"the old way"** compared to the isolated-amplifier 
 - Before first use, adjust the **R2** trimmer with no current flowing to set the desired zero-current voltage at **TP2_OFFSET** / **ADC1**.
 - Take the final conditioned output from **ADC1**. TP1_RAW, TP2_OFFSET, and TP3_OPAMP are available for bench debugging at each stage.
 
-## Status / next steps
+## Bench Test
 
-- [ ] Bench calibration: known currents vs. ADC1 output, confirm mV/A scaling matches the RM/gain design intent
-- [ ] Confirm and document the offset trim procedure/target voltage
-- [ ] Bring-up photos and scope captures
+![Bench test setup](images/LEM_current_sensor.png)
+
+N.B. Only a simple image is shown here, this sensor was used for various project and worked as intended, measurments will be added later on. 
+
+
 
 ## Related
 
