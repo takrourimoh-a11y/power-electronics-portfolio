@@ -78,4 +78,4 @@ N.B. The research paper is accepted however it will be published soon.
 Integrates the [gate driver](../gate-driver-ucc21520dwr/README.md) and [voltage sensor](../voltage-sensor-amc1311/README.md) designs directly, and introduces the CC6920BSO-10A current sensor as an alternative to the [SI8920BC-IPR](../current-sensor-si8920/README.md) and [LA55-P](../current-sensor-la55p/README.md) approaches used elsewhere in this portfolio.
 
 ---
-*The board silkscreen credits "Dr. Mahfuza" — if this board was built as part of that collaboration, worth noting the connection explicitly here.*
+*The board silkscreen credits "Dr. Mahfuza" — if this board was built as part of that collaboration of their fund, worth noting the connection explicitly here.*
