@@ -1,4 +1,4 @@
-# Three-Phase Interleaved Inverter / Converter Leg Board
+# Three-Phase Inverter / Converter Leg Board
 
 The flagship board of this stack — three complete isolated half-bridge legs on one PCB, each built from the same gate-driver building block documented separately, driving 1200V-rated IGBTs. Designed for a three-phase interleaved DC-DC converter or inverter application. Designed in EasyEDA, fabricated and assembled through JLCPCB.
 
@@ -67,12 +67,11 @@ The board is visibly organized in horizontal bands: gate-drive/control circuitry
 - Each leg has its own **DEADTIMEx** and disable-driver line — set independently if the legs need different interlock timing.
 - **GATEH1–3 / GATEL1–3** expose each switch's gate/source test points for bench probing.
 
-## Status / next steps
+## Bench Test
 
-- [ ] Bring-up photos of the assembled board
-- [ ] Double-pulse test per leg, confirming deadtime and gate resistor choices in practice
-- [ ] Full three-phase operation test (interleaved DC-DC mode and/or inverter mode)
-- [ ] Thermal imaging under load — six IGBTs and six isolated gate supplies on one board means thermal layout matters
+
+
+N.B. The board has been tested a video will be uploaded later.
 
 ## Related
 
