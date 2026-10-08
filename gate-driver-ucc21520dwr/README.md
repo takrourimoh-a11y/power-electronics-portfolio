@@ -61,11 +61,10 @@ Two-layer board, through-hole passives and connectors for easy bench rework, SOI
 | 10 µF electrolytic | VDDA/VDDB local decoupling | 2 |
 | 1 µF electrolytic | VCCI decoupling | 1 |
 
-## Status / next steps
+## Bench Test
+![Bench test setup](images/gate_driver.jpeg)
 
-- [ ] Add bring-up photos and scope captures (PWM in vs. gate voltage out, deadtime measurement)
-- [ ] Double-pulse test results
-- [ ] Thermal check on QA051C modules under continuous switching load
+N.B. The results are not uploaded yet, however this gate driver has been tested in various project to drive MOSFETs, SiC MOSFETS, and IGBTS. However, the user has to check the trasnsitors voltage and current requriments before using this gate driver.
 
 ## Related
 
